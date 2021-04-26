@@ -1,0 +1,42 @@
+
+==> Apresentação do Curso e do professor.
+
+==> Criar uma conta no <notabug.org>.
+
+==> História do Shell Mashey.
+
+==> O que é shell?
+    Interpretador de comandos, que roda em modo texto por um Emulador de terminal ou TTY
+
+Exemplo de macro {
+
+nome="Maurício Paiva da Silva"
+  \-> Variável
+
+echo $nome
+     |-> o "$" faz com que o shell identifique o próximo parâmetro como uma Variável
+
+}
+
+seq a b
+ |-> Forma uma sequência entre o ponto "a" e o ponto "b"
+
+for i in {1..20}; do
+echo "$i"
+done
+|-> Foma uma sequência também, mas de forma mais lenta do que o seq
+
+echo => Imprime/retorna o parâmetro dado ao comando
+
+STDOUT => Saída padrão
+
+"" -> Protege uma string e reconhece caracteres especiais.
+
+'' -> Protege uma string, mas nenhum caractere é especial!
+
+dialog --msgbox "Olá" 0 0
+
+whiptail --msgbox "Olá" 0 0
+
+\ -> esconde do shell o ENTER, quebrando a linha e indo para a de baixo
+
