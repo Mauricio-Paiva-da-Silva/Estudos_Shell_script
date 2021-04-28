@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+clear
+
+echo -e "
+\033[31;1m Teste de aula!\v\033[32;1mSerá que no céu tem pão?\033[m
+"
+
+nome="Maurício Paiva da Silva, 20 anos"
+
+echo -e " Minhas informações: $nome\n"
+
+nome="Coronavaxon Butanilso de Pfizon"
+
+echo -e " $nome\n"
+
+
+

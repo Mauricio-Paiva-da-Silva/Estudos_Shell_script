@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+clear
+
+nome='Maurício Paiva da Silva'
+idade='20 anos'
+cpf='240.689.479-82'
+
+echo -e "\n Seu nome é: $nome\n Sua idade é: $idade\n Seu CPF é: $cpf\n"
+
+

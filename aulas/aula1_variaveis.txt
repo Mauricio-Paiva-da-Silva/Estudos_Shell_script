@@ -1,0 +1,13 @@
+
+==> Shebang [#!]
+
+#!/bin/bash -> Estático
+|
+|- Forma correta: #!/usr/bin/env bash -> Dinâmico
+|- Use sempre o caminho dinâmico
+
+1° Linha reservada para a Shebang
+
+./ -> Alias
+
+
